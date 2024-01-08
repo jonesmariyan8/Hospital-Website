@@ -1,0 +1,791 @@
+*{
+    font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* table   */
+.table .container th{
+  padding: 200px;
+}
+
+/*      image with text   */
+.header{
+    
+    background-image: url('../image/bg1.jpg');
+    background-size: cover;
+  background-position: center;
+    height:70vh;    
+}
+
+.header .container {
+    color: black;
+    position: absolute;
+    top: 250px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+.header .container h1{
+text-align: center;
+}
+
+.header .container p{
+  text-align: center;
+  }
+
+  .header .container .button1 {
+    background-color: #146EB4; /* White background */
+    color: #ffff; /* Blue text */
+    
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+
+ 
+ /*------- blue box -- */
+ .header1 .services{
+  position: absolute;
+  background-color: #4285F4;
+  margin-left: 250px;
+  bottom: 40;
+  width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ .header1 .services .service{
+  padding: 50px;
+ }
+
+ .header1 .services .service h5{
+  font-size: 14px;
+  font-weight: 600;
+  margin: 15px 0;
+  color: white;
+ }
+
+ .header1 .services .service p{
+  color: white;
+  font-size: 16px;
+  margin: 15px 0;
+ }
+
+ .header1 .services .service button {
+  background-color: #007bff; 
+  color: #ffff; 
+}
+
+ 
+ .header1 .services .service .link-btn{
+  padding: 10px;
+ }
+ 
+ .header1 .service .link-btn1 {
+  background-color: #146EB4;
+  color: white;
+ padding: 10px;
+text-decoration: none;
+}
+ .header1 .services .service:nth-child(1){
+  background-color:#146EB4;
+ }
+
+ .header1 .services .service:nth-child(2){
+  background-color:#4285F4;
+ }
+
+ .header1 .services .service:nth-child(3){
+  background-color:#146EB4;
+ }
+
+.header1 .service i{
+color: white;
+font-size: 20px;
+}
+
+ /*----- About medicamp --- */
+ .project .container h3{
+  color:#146EB4;
+ }
+
+ .project .container  span{
+  color: black;
+ }
+ 
+ .project .container h3{
+  font-size: 20px;
+ }
+ .project .container p{
+  font-size: 20px;
+ }
+ 
+ /*-----     Welcome to medicamp medical center    ---*/
+ .project1 .row{
+  width: 90%;
+  margin: auto;
+  display: flex;
+ }
+
+ .col{
+  width: 50vw;
+  height: 100vh;
+  padding: 100px;
+ }
+
+ .project1 .col h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0;
+  color: black;
+  font-size: 22px;
+ }
+ .project1 .col p{
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 20;
+ }
+
+ .project1 .col-2{
+  position: relative;
+ }
+
+ .img-box{
+  position: absolute;
+  background-image: url('../image/doctor.jpg'); 
+  width: 500px;
+  height: 400px;
+  right: 150px;
+ }
+ 
+ .project1 .col .link-btn{
+  padding: 10px;
+ }
+ 
+ .link-btn{
+  background-color: #4285F4;
+  color: white;
+ padding: 10px;
+text-decoration: none;
+}
+
+ /*---- department of medicamp ----*/
+ .project2 .container h3{
+  color:#146EB4;
+ }
+ .project2 .container  span{
+  color: black;
+ }
+ .project2 .container h3{
+  font-size: 30px;
+ }
+ .project2 .container p{
+  font-size: 20px;
+ }
+
+/*     cardiology , dental , gynecology   */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .2s linear;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper{
+  margin: 10px auto;
+  padding: 0 10%;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.wrapper .container{
+  display: grid;
+  gap: 15px;
+ grid-template-columns: 100px 1fr 1fr 1fr;
+}
+
+.wrapper .container .box{
+  display: block;
+padding: 20px;
+text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box img{
+  height: 70px;
+ 
+}
+.box h3{
+  color: black;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn{
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  margin-top: 10px;
+  padding: 15px;
+  background: #146EB4;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/*              Why you choose medicamp    */
+
+.project3 .container h3{
+  color:#146EB4;
+ }
+ .project3 .container  span{
+  color: black;
+ }
+ .project3 .container h3{
+  font-size: 30px;
+ }
+ .project3 .container p{
+  font-size: 20px;
+ }
+
+ .project3 .col-3{
+  position: relative;
+ }
+
+ .img-box1{
+  position: absolute;
+  background-image: url('../image/bg8.jpg'); 
+  width: 300px;
+  height: 350px;
+  left: 850px;
+  
+ }
+ .project3{
+  background-color: #eff1f3;
+ }
+
+ .project4{
+color: white;
+  background-color: #146EB4;
+  padding: 30px;
+ }
+
+ /*              Works of medicamp */
+
+ .project5 .container h3{
+  color:#146EB4;
+ }
+ .project5 .container  span{
+  color: black;
+ }
+ .project5 .container h3{
+  font-size: 30px;
+ }
+ .project5 .container p{
+  font-size: 20px;
+ }
+ 
+/*   image */
+ *{
+  box-sizing: border-box;
+ }
+
+ .project7 .column {
+  float: left;
+  width: 23.33%;
+  padding: 5px;
+ }
+
+ .project7 .row::after{
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+
+
+
+/*             Make an Appointment   */
+
+.project19 .flex-container{
+  width:500%;
+  height: auto;
+  display: flex;
+}
+
+
+.project19 .flex-container .flex-box{
+    
+  background-image: url('../image/bg19.jpg');
+ 
+  height:70vh;
+  
+}
+
+.project19 .flex-container .flex-box{
+width: 600px;
+height: 600px;
+color: black;
+font-size: 20px;
+text-align: left;
+padding-left: 50px;
+}
+
+
+.project19 .flex-container .flex-box1{
+  width: 500px;
+  height: 600px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 50px;
+  }
+
+
+  .project19 .container{
+    width: 80%;
+    max-width: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    padding-bottom: 20px;
+}
+
+
+.user-input-box input{
+    height: 40px;
+    width: 300%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+
+
+.project19 .form-submit-btn{
+    margin-top: 30px;
+}
+
+.project19 .form-submit-btn {
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+    display: block;
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    border:none;
+    border-radius: 10px;    
+    
+}
+
+  .main-user-info{
+        max-height: 380px;
+        overflow: auto;
+    }
+
+    .main-user-info::-webkit-scrollbar{
+        width: 0;
+    }
+
+
+ /*            Doctors of medicamp   */
+ .project8 .container h3{
+  color:#146EB4;
+ }
+ .project8 .container  span{
+  color: black;
+ }
+ .project8 .container h3{
+  font-size: 30px;
+ }
+ .project8 .container p{
+  font-size: 20px;
+ }
+ 
+/*        DR.jassika tailor      */
+
+*{
+  box-sizing: border-box;
+ }
+
+ .project9 .column {
+  float: left;
+  width: 23.33%;
+  padding: 5px;
+ }
+
+ .project9 .row::after{
+  content: "";
+  display: table;
+  clear: both;
+ }
+ .project9 .column h4{
+  color: black;
+  font-size: 20px;
+ }
+ .project9 .column p{
+  text-align: center;
+  font-size: 20px;
+ }
+
+ .project9 .social i{
+  text-align: center;
+  font-size: 25px;
+  color: #007bff;
+ }
+
+ /*  Testimonials of medicamp    */
+ .project10 .container h3{
+  color:#146EB4;
+ }
+ .project10 .container  span{
+  color: black;
+ }
+ .project10 .container h3{
+  font-size: 30px;
+ }
+ .project10 .container p{
+  font-size: 20px;
+ }
+ 
+
+  
+.project21 .wrapper{
+  margin: 10px auto;
+  padding: 0 10%;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.project21 .wrapper .container{
+  display: grid;
+  gap: 15px;
+ grid-template-columns: 100px 1fr 1fr 1fr;
+}
+
+.project21 .wrapper .container .box{
+  display: block;
+padding: 20px;
+text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project21 .box img{
+  height: 70px;
+ 
+}
+.project21 .box h3{
+  color: black;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/*  price plan   */
+
+.project22 .container h3{
+  color:#146EB4;
+ }
+ .project22 .container  span{
+  color: black;
+ }
+ .project22 .container h3{
+  font-size: 30px;
+ }
+ .project22 .container p{
+  font-size: 20px;
+ }
+
+
+/* pricing plan */
+
+.pricing-container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.pricing-plan {
+  border: 1px solid #ccc;
+  margin: 10px;
+  border-radius: 10px;
+}
+.pricing-plan h4{
+  padding: 10px;
+  color: black;
+font-size: 25px;
+}
+
+.col-md-3 p{
+font-size: 20px;
+}
+
+.pricing-label {
+  background-color: #4285F4;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.subscribe-button {
+  padding: 200px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: black;
+}
+
+
+
+
+.project11 .container h3{
+  color:#146EB4;
+ }
+ .project11 .container  span{
+  color: black;
+ }
+ .project11 .container h3{
+  font-size: 30px;
+ }
+ .project11 .container p{
+  font-size: 20px;
+ }
+
+
+
+ .newscards-container {
+  display: flex;
+  /* justify-content: space-around; */
+  margin: 50px auto;
+  max-width: max-content;
+}
+
+.newscard {
+  width: 300px;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.newscard img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.newscard h5{
+  color: black;
+}
+
+.newscard h4{
+  color:#146EB4;
+}
+
+.Box-container {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.Box-plan {
+  border: 1px solid #ccc;
+  margin: 70px;
+  border-radius: 20px;
+}
+.pricing-plan h4{
+  padding: 20px;
+  color: black;
+font-size: 25px;
+}
+
+.col-md-3 p{
+font-size: 20px;
+}
+
+.project13 .container h3{
+  color:#146EB4;
+ }
+ .project13 .container  span{
+  color: black;
+ }
+ .project13 .container h3{
+  font-size: 30px;
+ }
+ .project13 .container p{
+  font-size: 20px;
+ }
+
+ .flex-container{
+    width:500%;
+    height: auto;
+    display: flex;
+ }
+
+ .flex-container .flex-box{
+  width: 500px;
+  height: 600px;
+  background-color: #146EB4;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 50px;
+ }
+
+
+ .project16{
+  color: white;
+    background-color: #146EB4;
+    padding: 30px;
+    text-align: center;
+  
+   }
+   .project16 P{
+    font-size: 20px;
+   }
+
+   
+.project17 .container h3{
+  color:#146EB4;
+ }
+ .project17 .container  span{
+  color: black;
+ }
+ .project17 .container h3{
+  font-size: 30px;
+ }
+ .project17 .container p{
+  font-size: 20px;
+ }
+
+ .project17 .social i{
+  text-align: center;
+  font-size: 30px;
+  color: #007bff;
+ }
+ 
+
+ 
+.project18 .container h3{
+  color:#146EB4;
+ }
+ .project18 .container  span{
+  color: black;
+ }
+ .project18 .container h3{
+  font-size: 20px;
+ }
+
+ 
+
+
+ 
+.project23.container{
+  width: 100%;
+  max-width: 650px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 28px;
+  margin: 0 28px;
+  border-radius: 10px;
+  box-shadow: inset -2px 2px 2px white;
+}
+
+.project23 .form-title{
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  border-bottom: solid 1px white;
+}
+
+.project23 .main-user-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.project23 .user-input-box:nth-child(2n){
+  justify-content: end;
+}
+
+.project23 .user-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+.project23 .user-input-box label{
+  width: 95%;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.project23 .user-input-box input{
+  height: 40px;
+  width: 95%;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 0 10px;
+}
+
+
+.project23 .form-submit-btn{
+  margin-top: 30px;
+}
+
+.project23 .form-submit-btn {
+flex-wrap: wrap;
+display: flex;
+text-align: center;
+  display: block;
+  
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border:none;
+  border-radius: 10px;  
+   color: black;
+  
+}
